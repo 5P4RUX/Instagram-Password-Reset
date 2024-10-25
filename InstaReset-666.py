@@ -16,7 +16,7 @@ GREY = '\033[90m'
 def print_banner(title):
     os.system('clear')  # Use 'cls' on Windows
     banner = pyfiglet.figlet_format(title, font='smslant')
-    print(f"{GREY}{banner}{GREEN}                       Github: SPARUX-666 </>\n{RESET}")
+    print(f"{GREY}{banner}{GREEN}                       Github: 5P4RUX </>\n{RESET}")
     print(f"{GREEN}{'━'*67}{RESET}")
 
 # Function to perform the password reset request

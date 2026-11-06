@@ -21,7 +21,7 @@ def print_banner(title):
 
 # Function to perform the password reset request
 def send_reset_link(target):
-    url = "https://i.instagram.com/api/v1/accounts/send_password_reset/"
+    url = "https://i.instagram.com/api/v2/accounts/send_password_reset/"
     data = {
         "_csrftoken": "".join(random.choices(string.ascii_letters + string.digits, k=32)),
         "username": target,
